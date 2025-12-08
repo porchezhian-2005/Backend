@@ -9,6 +9,7 @@
 // console.log(square2);
 
 /*...............................................................................*/ 
+
 let name ;
 
 function greetUser(name){
@@ -17,13 +18,15 @@ function greetUser(name){
 
 let greetUSer1 = greetUser('Alax');
 let greetUser2 = greetUser('losheka');
+let greetUser3 = greetUser('KL Rahul');
 
 console.log(greetUser2);
 console.log(greetUSer1);
+console.log(greetUser3);
 
-let newUser = 'Lavanya';
-let message = `Hello ${newUser}, Welcome to our company Ms.${newUser}`;
-console.log(message);
+
+
+
 
 
 

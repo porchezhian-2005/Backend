@@ -1,7 +1,7 @@
 import express from 'express';
 const app = express();
-
-app.get('/',(req, res)=>{
+app.use(express.json())
+app.get('/api',(req, res)=>{
     res.send("API creation")
 });
 

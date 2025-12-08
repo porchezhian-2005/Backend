@@ -1,15 +1,9 @@
-const  a = 99;
-const  b = 88;
+let a = "String Interpolation";
+let b = "Printed";
+
 try{
-    console.log(a);
+    console.log(a,b);
 }
 catch(err){
     console.log(`Error occurs:${err}`);
 }
-
-
-
-
-
-
-
